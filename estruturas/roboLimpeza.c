@@ -15,7 +15,7 @@ int main() {
     area = largura * comprimento;
     tempo = (area + 4) / 5;
 
-    printf("O robô de limpeza levará %d tempo minuto para limpara a sala", tempo);
+    printf("O robô de limpeza levará %.1f minuto para limpara a sala", ceil(tempo));
 
 
     return 0;
