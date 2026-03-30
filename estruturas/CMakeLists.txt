@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 11)
 add_library(estruturas STATIC library.c
         soma.cpp
         operacoes_math/Math.c
-        calculadora/Calculadora.c)
+        calculadora/Calculadora.c
+        roboLimpeza.c)
